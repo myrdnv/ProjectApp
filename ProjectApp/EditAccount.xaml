@@ -5,8 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectApp"
         mc:Ignorable="d"
-        Title="EditAccount" Height="450" Width="800">
+        Title="EditAccount" Height="832" Width="1280">
     <Grid>
-        
+
+        <Rectangle HorizontalAlignment="Left" Height="72" Width="284" Margin="0,0,0,0" Stroke="#FF8D909B" VerticalAlignment="Top" Fill="#FF8D909B" />
+        <Label VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="40" FontFamily="Lexenda Giga" BorderThickness="1" Foreground="White" Content="JoyPop" Margin="74,6,0,0"/>
+
+
+        <Border Margin="344,166,0,0"  Background="#8D909B" BorderBrush="#8D909B"  Height="98"  CornerRadius="40"  Width="591" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="Inter" BorderThickness="1" Foreground="White" Content="Edit Account"/>
+        </Border>
+
+
+        <Border Margin="212,302,0,0"  Background="#AAADC4"  Height="45"  CornerRadius="30"  Width="126" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Label Foreground="White" Content="Bio"  Margin="0,0,0,0" HorizontalAlignment="Center"     VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24"/>
+        </Border>
+        <Border Margin="346,302,0,0"  Background="White" BorderThickness="6" BorderBrush="#AAADC4"  Height="251"  CornerRadius="30"  Width="414" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox BorderBrush="Transparent" Margin="0,15,0,0" Foreground="#AAADC4"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="Edit Bio"  Width="590"  VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24" />
+        </Border>
+
+
+
+
+        <Border Margin="345,564,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="59"  CornerRadius="40"  Width="590" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Confirm Changes" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59"/>
+        </Border>
+
+
+        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" BorderBrush="Transparent" Click="Button_Click_1" >
+            <Button.Background>
+                <ImageBrush ImageSource="Screenshot 2023-02-21 105159.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button Height="72" Width="72" Margin="1106,0,95.333,730.667" Foreground="#8D909B" BorderBrush="Transparent" Click="Button_Click" >
+            <Button.Background>
+                <ImageBrush ImageSource="Screenshot 2.png"/>
+            </Button.Background>
+
+        </Button>
+
+        <Ellipse Fill="#8D909B" Margin="814,285,253.333,312.667"/>
+        <Ellipse Fill="#A53860" Margin="822,292,260.333,320.667"/>
+        <Ellipse Fill="#D9D9D9" Margin="832,302,270.333,330.667"/>
+
+
+        <Ellipse HorizontalAlignment="Left" Height="277" Width="212" Margin="1171,326,0,0"
+               Stroke="#FFA53860" VerticalAlignment="Top"  Fill="#FFA53860"/>
+        <Ellipse HorizontalAlignment="Left" Height="195" Width="200" Margin="832,757,0,0"
+               Stroke="#FFA53860" VerticalAlignment="Top"  Fill="#FFA53860"/>
+        <Ellipse HorizontalAlignment="Left" Height="445" Width="456" Margin="-189,628,0,0"
+               Stroke="#FFA53860" VerticalAlignment="Top"  Fill="#FFA53860"/>
+        <Ellipse HorizontalAlignment="Left" Height="81" Width="85" Margin="142,216,0,0"
+               Stroke="#FFA53860" VerticalAlignment="Top"  Fill="#FFA53860"/>
+        <Border Margin="790,499,0,0"  Background="#AAADC4"  Height="45"  CornerRadius="30"  Width="270" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Label Foreground="White" Content="Change Profile Picture"  Margin="0,0,0,0" HorizontalAlignment="Center"     VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24"/>
+        </Border>
     </Grid>
 </Window>

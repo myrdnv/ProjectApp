@@ -13,7 +13,7 @@
 
 
         <Border Margin="105,100,0,0"  Background="#8D909B" BorderBrush="#8D909B"  Height="63"  CornerRadius="40"  Width="695" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" FontFamily="Inter" BorderThickness="1" Foreground="White" Content="Username"/>
+            <Label x:Name="Username" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" FontFamily="Inter" BorderThickness="1" Foreground="White" Content="Username"/>
         </Border>
 
         <Border Margin="105,175,0,0" BorderThickness="3" BorderBrush="#AAADC4" Background="White"  Height="41"  CornerRadius="25"  Width="251" HorizontalAlignment="Left" VerticalAlignment="Top">
@@ -24,12 +24,12 @@
         </Border>
 
         <Border Margin="648,175,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="41"  CornerRadius="25"  Width="148" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Edit" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="148" Height="41"/>
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Edit" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="148" Height="41" Click="Button_Click"/>
         </Border>
 
 
 
-        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" BorderBrush="Transparent" >
+        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" BorderBrush="Transparent" Click="Button_Click_1" >
             <Button.Background>
                 <ImageBrush ImageSource="Screenshot 2023-02-21 105159.png"/>
             </Button.Background>
@@ -50,7 +50,7 @@
                Stroke="#FFA53860" VerticalAlignment="Top"  Fill="#FFA53860"/>
         <Rectangle Width="1076" Height="416" Margin="90,387,107.333,-0.333" Fill="#D9D9D9"  />
         <Border Margin="105,229,0,0"   Background="#D9D9D9" BorderThickness="3" BorderBrush="#AAADC4"  Height="115"  CornerRadius="20"  Width="699" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <TextBlock Margin="0,15,0,0" Foreground="#8D909B"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="Country"  Width="400"  VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24"/>
+            <TextBlock Margin="0,15,0,0" Foreground="#8D909B"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="BIO"  Width="400"  VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24"/>
         </Border>
     </Grid>
 </Window>

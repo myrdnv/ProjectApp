@@ -18,10 +18,10 @@
 
 
         <Border Margin="537,282,0,0"  Background="White" BorderThickness="6" BorderBrush="#AAADC4"  Height="53"  CornerRadius="30"  Width="400" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <TextBox Margin="0,15,0,0" Foreground="#AAADC4"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="PIN"  Width="590" TextChanged="TextBox_TextChanged" VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24" />
+            <TextBox Margin="0,15,0,0" Foreground="#AAADC4"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="PIN"  Width="590"  VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24" />
         </Border>
         <Border Margin="537,351,0,0"  Background="White" BorderThickness="6" BorderBrush="#AAADC4"  Height="53"  CornerRadius="30"  Width="400" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <TextBox Margin="0,15,0,0" Foreground="#AAADC4"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="Delivery Adress"  Width="590" TextChanged="TextBox_TextChanged" VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24" />
+            <TextBox Margin="0,15,0,0" Foreground="#AAADC4"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="Delivery Adress"  Width="590"  VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24" />
         </Border>
         <Border Margin="537,424,0,0"  Background="#AAADC4" BorderThickness="0" BorderBrush="#AAADC4"  Height="53"  CornerRadius="30"  Width="400" HorizontalAlignment="Left" VerticalAlignment="Top">
             <TextBlock Margin="0,15,0,0" Foreground="White"  Background="Transparent" HorizontalAlignment="Center" TextAlignment="Center"  Height="53"  TextWrapping="Wrap" Text="Email"  Width="400"  VerticalAlignment="Center" FontFamily="Leelawadee UI Semilight" FontSize="24"/>
@@ -51,13 +51,13 @@
 
 
 
-        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" BorderBrush="Transparent" >
+        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" BorderBrush="Transparent" Click="Button_Click_1" >
             <Button.Background>
                 <ImageBrush ImageSource="Screenshot 2023-02-21 105159.png"/>
             </Button.Background>
         </Button>
 
-        <Button Height="72" Width="72" Margin="1106,0,95.333,730.667" Foreground="#8D909B" BorderBrush="Transparent" >
+        <Button Height="72" Width="72" Margin="1106,0,95.333,730.667" Foreground="#8D909B" BorderBrush="Transparent" Click="Button_Click" >
             <Button.Background>
                 <ImageBrush ImageSource="Screenshot 2.png"/>
             </Button.Background>

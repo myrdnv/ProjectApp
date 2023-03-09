@@ -66,13 +66,13 @@
 
 
 
-        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" BorderBrush="Transparent" >
+        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" BorderBrush="Transparent" Click="Button_Click_1" >
             <Button.Background>
                 <ImageBrush ImageSource="Screenshot 2023-02-21 105159.png"/>
             </Button.Background>
         </Button>
 
-        <Button Height="72" Width="72" Margin="1106,0,95.333,730.667" Foreground="#8D909B" BorderBrush="Transparent" >
+        <Button Height="72" Width="72" Margin="1106,0,95.333,730.667" Foreground="#8D909B" BorderBrush="Transparent" Click="Button_Click" >
             <Button.Background>
                 <ImageBrush ImageSource="Screenshot 2.png"/>
             </Button.Background>

@@ -23,5 +23,21 @@ namespace ProjectApp
         {
             InitializeComponent();
         }
+
+        
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainMenu dashboard = new MainMenu();
+            dashboard.Show();
+            this.Close();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Settings dashboard = new Settings();
+            dashboard.Show();
+            this.Close();
+        }
     }
 }

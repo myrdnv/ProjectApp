@@ -18,33 +18,33 @@
 
 
         <Border Margin="345,294,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="59"  CornerRadius="30"  Width="590" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Personal Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59"/>
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Personal Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59" Click="Button_Click"/>
         </Border>
 
         <Border Margin="345,371,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="59"  CornerRadius="30"  Width="590" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Account Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59"/>
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Account Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59" Click="Button_Click_2"/>
         </Border>
 
         <Border Margin="345,448,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="59"  CornerRadius="30"  Width="590" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Status" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59"/>
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Status" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59" Click="Button_Click_3"/>
         </Border>
 
         <Border Margin="345,524,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="59"  CornerRadius="30"  Width="590" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Log In Details" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59"/>
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Log In Details" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59" Click="Button_Click_4"/>
         </Border>
 
         <Border Margin="345,601,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="59"  CornerRadius="30"  Width="590" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Order Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59"/>
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Order Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59" Click="Button_Click_5"/>
         </Border>
 
 
         <Border Margin="345,677,0,0"  Background="#AAADC4" BorderBrush="#AAADC4"  Height="59"  CornerRadius="30"  Width="590" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Device and User Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59"/>
+            <Button BorderBrush="Transparent" Foreground="White" FontFamily="Leelawadee UI Semilight" FontSize="24" Background="Transparent" Content="Device and User Info" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="590" Height="59" Click="Button_Click_6"/>
         </Border>
 
 
 
-        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" >
+        <Button Height="72" Width="72" Margin="1203,0,0,732" Foreground="#8D909B" Click="Button_Click_1" >
             <Button.Background>
                 <ImageBrush ImageSource="Screenshot 2023-02-21 105159.png"/>
             </Button.Background>
